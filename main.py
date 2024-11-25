@@ -57,7 +57,7 @@ async def cmd_start(message: Message):
 @router.callback_query(F.data == 'urlOfGitHub')
 async def ret_to_mainkb(callback: CallbackQuery):
     await callback.answer()
-    await callback.message.answer('https://github.com/kitCHERNOV/telegaBot.git', reply_markup=kb_main)
+    await callback.message.answer('https://github.com/asskkord/laba1.git', reply_markup=kb_main)
 
 
 async def download_audio(anime_title):
